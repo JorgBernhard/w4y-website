@@ -1,4 +1,4 @@
-#about-us {
+#ourteam {
     height: 100vh;
     width: 100%;
 
@@ -12,7 +12,7 @@
   background-size: cover;
 }
 
-#about-us h1 {
+#ourteam h1 {
     font-size: 5rem;
     margin-bottom: 40px;
 
@@ -32,16 +32,16 @@
     border: 1px solid rgb(3, 3, 90);;   
 }
 
-.about-us-links {
+.ourteam-links {
     display: flex;
     align-self: flex-end;
 }
 
-.about-us-links a {
+.ourteam-links a {
     display: flex;
 }
 
-.about-us-links img {
+.ourteam-links img {
     margin-right: 15px;
     height: 40px !important;
     cursor: pointer;
@@ -64,11 +64,11 @@
     border-radius: 25px;
 }
 .swiper-slide h3 {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
     color: rgb(3, 3, 90);
 }
 .swiper-slide p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
     color: rgb(3, 3, 90);
 }
@@ -82,7 +82,7 @@
 }
 
 .swiper-button-next:after, .swiper-button-prev:after {
-    opacity: 0.0;
+    opacity: 0.2;
 }
 
 .swiper-button-next:after:hover {

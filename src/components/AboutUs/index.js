@@ -5,6 +5,8 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import GithubIcon from '../../assets/icons/github-icon.svg';
 import LinkedinIcon from '../../assets/icons/linkedin-icon.svg';
+
+import W4Y from '../../assets/w4y-around.png';
 import "./styles.css";
 
 
@@ -14,12 +16,12 @@ export default function AboutUs() {
     return (
         <div id="about-us">
 
-            <h1>About us</h1>
+            <h1>About Us</h1>
 
             <Swiper
-                slidesPerView={window.screen.width < 800 ? 1 : 3}
+                slidesPerView={window.screen.width < 800 ? 1 : 1}
                 spaceBetween={30}
-                slidesPerGroup={window.screen.width < 800 ? 1 : 3}
+                slidesPerGroup={window.screen.width < 800 ? 1 : 1}
                 loop={true}
                 loopFillGroupWithBlank={true}
                 pagination={{
@@ -31,98 +33,31 @@ export default function AboutUs() {
             >
                 <SwiperSlide>
                     <div className="img-box">
-                        J
+                    <img src={W4Y} alt="Foto" />
                     </div>
-
+                    <h3>The company We 4 You (W4Y)</h3>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        W4Y was created early 2022, the idea was to atend to all the companies world-wide with need of especial 
+                        internet design, web-interfaces, mobile-applications and all you mid think of.
+                        We believe that you can create a application, make it tailer-made, fit to serve the specific person 
+                        or company and if needed interface with all existing aplications if possible.<br></br><br></br>
+                        We believe that working world-wide we can still attemt to have a perfect dialog with the client, 
+                        personal touch of understanding and profesional contact recieving the complete information, true it all
+                        be able to design a perfect porduct with all specifications required.
+                        Our teams are specialized in all area's from collecting data up do desin and develop the product.
                     </p>
 
-                    <div className="about-us-links">
-                        <a href='https://www.linkedin.com/in/leonardo-melo-896a98124/'>
+                    <div className="ourteam-links">
+                        <a href='https://#'>
                             <img src={LinkedinIcon} alt="linkedin icon" />
                         </a>
 
-                        <a href='https://github.com/TWISPETA'>
-                            <img src={GithubIcon} alt="github icon" />
-                        </a>
-                    </div>
-                </SwiperSlide><SwiperSlide>
-                    <div className="img-box">
-                        J
-                    </div>
-
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-
-                    <div className="about-us-links">
-                        <a href='https://www.linkedin.com/in/leonardo-melo-896a98124/'>
-                            <img src={LinkedinIcon} alt="linkedin icon" />
-                        </a>
-
-                        <a href='https://github.com/TWISPETA'>
+                        <a href='https://#'>
                             <img src={GithubIcon} alt="github icon" />
                         </a>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="img-box">
-                        J
-                    </div>
-
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-
-                    <div className="about-us-links">
-                        <a href='https://www.linkedin.com/in/leonardo-melo-896a98124/'>
-                            <img src={LinkedinIcon} alt="linkedin icon" />
-                        </a>
-
-                        <a href='https://github.com/TWISPETA'>
-                            <img src={GithubIcon} alt="github icon" />
-                        </a>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="img-box">
-                        J
-                    </div>
-
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-
-                    <div className="about-us-links">
-                        <a href='https://www.linkedin.com/in/leonardo-melo-896a98124/'>
-                            <img src={LinkedinIcon} alt="linkedin icon" />
-                        </a>
-
-                        <a href='https://github.com/TWISPETA'>
-                            <img src={GithubIcon} alt="github icon" />
-                        </a>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="img-box">
-                        J
-                    </div>
-
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-
-                    <div className="about-us-links">
-                        <a href='https://www.linkedin.com/in/leonardo-melo-896a98124/'>
-                            <img src={LinkedinIcon} alt="linkedin icon" />
-                        </a>
-
-                        <a href='https://github.com/TWISPETA'>
-                            <img src={GithubIcon} alt="github icon" />
-                        </a>
-                    </div>
-                </SwiperSlide>
+                
             </Swiper>
         </div>
     );

@@ -15,6 +15,7 @@ function Main() {
         <div className='header'>
           <a href='# '>Home</a>
           <a href='#about-us' >About Us</a>
+          <a href='#ourteam' >Our Team</a>
           <a href='#projects' >Projects</a>
           <a href='#contacts' >Contacts</a>
         </div>
