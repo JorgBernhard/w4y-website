@@ -1,0 +1,68 @@
+.Page-contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../assets/contact/ponta-negra.jpg');
+  background-size: cover;
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+}
+.Container-contact {
+  display: flex;
+  flex-direction: row;  
+}
+.Contact {
+
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: gray;
+  margin-left: 10rem;
+  margin-top: 10rem;
+
+  }
+.Contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.Info {
+  width: 30rem;
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: gray;
+  margin-left: -12rem;
+  margin-top: 14rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 0.1rem solid gray;
+
+  box-shadow: 1rem 1rem 2rem 0rem gray;
+  
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+.Git {
+  cursor: pointer;
+  margin-right: -2rem;
+}
+.Link {
+ cursor: pointer;
+}
+.Mapa {
+  width: 60rem;
+  height: 40rem;
+  margin-left: 14rem;
+  margin-top: 20rem;
+  border-radius: 2rem;
+  border: 0.1rem solid gray;
+  
+  box-shadow: 1rem 1rem 2rem 0rem gray;
+}

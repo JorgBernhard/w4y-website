@@ -1,0 +1,44 @@
+.Page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.Container-main {
+  display: flex;
+  flex-direction: row;  
+}
+.Creating {
+  width: 70%;
+  height: 50%;
+  border-radius: 1rem;
+  margin-top: 14rem;
+  margin-left: 6rem;
+  padding: 0.5rem;
+
+  box-shadow: 1rem 1rem 2rem 0rem gray;
+}
+.Text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14rem;
+}
+.Top {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: gray;
+
+  margin-left: 10rem;
+}
+.Texto {
+  width: 70%;
+  font-family: 'Aboreto', cursive;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: gray;
+
+  margin-left: 10rem;
+  margin-top: 2rem;
+}

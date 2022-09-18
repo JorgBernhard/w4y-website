@@ -1,0 +1,47 @@
+.Head   {
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+}
+@media only screen and (max-width: 1400px) {
+    .Head {
+        height: 60px;
+     }}
+.Head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+}
+.Logo {
+    width: 80px;
+    height: 50px;
+    margin-left: 4rem;
+}
+@media only screen and (max-width: 1400px) {
+    .Logo {
+        width: 60px;
+        height: 30px;
+     }}
+.Links {
+    margin-top: 0rem;
+    cursor: pointer;
+}
+a {
+    all: unset;
+    font-family: 'Aboreto', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color:  gray;
+    margin-right: 4rem; 
+}
+@media only screen and (max-width: 1400px) {
+    a {
+        font-size: 1.4rem;
+     }}
+a:hover {
+    color: rgb(17, 164, 223);
+}

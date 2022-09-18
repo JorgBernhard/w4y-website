@@ -1,0 +1,89 @@
+.Page-design {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.Container-design {
+  display: flex;
+  flex-direction: column;  
+}
+.Design {
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: gray;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  }
+  .img-box img{
+    background-color: rgb(255, 255, 255);
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 1rem;
+    border: 1px solid rgb(160, 160, 160);;   
+}
+
+.swiper {
+  width: 90%;
+  height: 90%;
+ 
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem;
+    border: 0.1rem solid gray;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+   
+}
+.swiper-slide h3 {
+    font-size: 1.8rem;
+    color: rgb(183, 183, 183);
+}
+.swiper-slide p {
+    font-size: 1.7rem;
+    text-align: justify;
+    color: rgb(183, 183, 183);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 38rem;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    opacity: 0.2;
+    margin-top: 24rem;
+}
+
+.swiper-button-next:after:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1400px) {
+    .swiper {
+      width: 90%;
+      height: 90%;
+    }
+
+    .swiper-slide {
+        padding: 2rem;
+    }
+
+    .swiper-slide p {
+        font-size: 1.4rem;
+    }
+}
