@@ -1,0 +1,97 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  
+}
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+
+  width: 100rem;
+  height: 4rem;
+
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.Logo {
+  width: 10rem;
+
+  margin-left: -6rem;
+  margin-top: 2rem;
+}
+.Headerlinks {
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.HeaderHome{
+  all: unset;
+
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;
+}
+.HeaderHome:hover {
+  color: rgb(255, 51, 170);
+}
+.HeaderWork{
+  all: unset;
+
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;
+}
+.HeaderWork:hover {
+  color: rgb(255, 51, 170);
+}
+.HeaderUs {
+  all: unset;
+
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;
+}
+.HeaderUs:hover {
+  color: rgb(255, 51, 170);
+}
+.HeaderContact {
+  all: unset;
+
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;    
+}
+.HeaderContact:hover {
+  color: rgb(255, 51, 170);
+}
+.Headerrechts {
+  flex-direction: row;
+}

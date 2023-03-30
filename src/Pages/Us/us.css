@@ -1,0 +1,112 @@
+.Us {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw; 
+  height: 110vh;
+
+  background-color: rgb(61, 61, 61);
+
+  align-items: center;
+
+}
+.UsContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 120rem; 
+  height: 100%;
+
+  background-image: url('../../images/background.png');
+  background-size: cover;
+
+  align-items: center;
+  
+}
+.UsText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  margin-top: 10rem;
+}
+.UsTextGeral {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+
+  width: 60%;
+  text-align: justify;
+  margin-top: 4rem;
+}
+.UsContainerCenter {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.Ceo {
+  width: 30rem;
+
+    margin-top: 2rem;
+  border-left: solid 0.3rem  rgb(240, 9, 190);
+  border-bottom: solid 0.1rem  rgb(240, 9, 190);
+  border-radius: 50%;
+}
+.UsCeoGeral {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+
+  width: 34%;
+  text-align: justify;
+  margin-top: 4rem;
+}
+.UsBoden {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 4rem;
+}
+.UsBodenText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+
+  margin-top: 2rem;
+}
+.UsBodenImages {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+
+  gap: 1rem;
+
+  align-items: center;
+  justify-content: center;
+}
+.UsClients {
+  height: 5rem;
+  
+}
+
+.UsBodenImagesII {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+
+  gap: 1rem;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1rem;
+}

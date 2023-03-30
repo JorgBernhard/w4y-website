@@ -1,0 +1,191 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw; 
+  height: 190vh;
+
+  background-color: rgb(61, 61, 61);
+
+  align-items: center;
+
+}
+.ProjectsContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 120rem; 
+  height: 100%;
+
+  background-image: url('../../images/background.png');
+  background-size: cover;
+
+  align-items: center;
+  
+}
+.ProjectHeaderText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+ margin-left: -46rem;
+  margin-top: 10rem;
+}
+.ProjectText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  text-align: justify;
+  margin-left: -52rem;
+  margin-bottom:0rem;
+}
+.ImageContaimer {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+}
+.Celular {
+  width: 40rem;
+  height: 50rem;
+
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 4rem;
+}
+.AceraP {
+  width: 40rem;
+  height: 50rem;
+
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 4rem;
+}
+.ImageContaimerII {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.Amaral {
+  width: 40rem;
+  height: 50rem;
+
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.Condo {
+  width: 40rem;
+  height: 50rem;
+
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+.ProjectBodenText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+ margin-left: 0rem;
+  margin-top: 10rem;
+}
+.BodenText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  text-align: justify;
+  margin-left: 0rem;
+  margin-bottom:0rem;
+}
+.ImageContaimerIII {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center; 
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.ClienteI {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgb(212, 212, 212);
+  border-radius: 1rem;
+  align-items: center;
+}
+.Client01 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  width: 25rem;
+  margin-top: 2rem;
+}
+.RVP {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  width: 25rem;
+  margin-top: 1rem;
+  text-align: right;
+}
+.ClienteII {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgb(212, 212, 212);
+  border-radius: 1rem;
+  align-items: center;
+}
+.Client02 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  width: 25rem;
+  margin-top: 2rem;
+}
+.MS {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  width: 25rem;
+  margin-top: 1rem;
+  text-align: right;
+}
+.ClienteIII {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgb(212, 212, 212);
+  border-radius: 1rem;
+  align-items: center;
+}
+.Client03 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  width: 25rem;
+  margin-top: 2rem;
+}
+.IR {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  width: 25rem;
+  margin-top: 1rem;
+  text-align: right;
+}
