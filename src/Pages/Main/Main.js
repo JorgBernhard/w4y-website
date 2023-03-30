@@ -22,7 +22,7 @@ function Main() {
       for the web-app</h1>
       <h1 className='BotomTextGeral'>W4Y, we are the perfect team to atemt your companies
       needs in creating the first impression,<br></br>  that your customers will experience.</h1>
-      <a className="Mail" href='mailto:jorg.reske@gmail.com'>Get started</a>  
+      <a className="Mail" href='mailto:w4ysolutions@gmail.com'>Get started</a>  
       </div>
       </div>
     </div>

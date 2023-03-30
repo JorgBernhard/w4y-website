@@ -16,7 +16,7 @@ function Contact() {
       <div className='ContactCenter'>
        <img className='Jorg'src={Jorg} alt="jorg" />
        <div className='ContactLinks'>
-        <a className="Email" href='mailto:W4YSOLUTIONS@gmail.com'>Email</a>  
+        <a className="Email" href='mailto:w4ysolutions@gmail.com'>Email</a>  
         <a className="Whats" target="_blank" rel="noreferrer" href={"https://api.whatsapp.com/send/?phone=5584999685830&text&type=phone_number&app_absent=0"} alt="Whatsapp">Whats</a> 
        </div>
        </div>
