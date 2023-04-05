@@ -18,12 +18,24 @@
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 420px) {
+  .HeaderContainer {
+    width: 420px;
+    justify-content: center;
+   }}
 .Logo {
   width: 10rem;
 
   margin-left: -6rem;
   margin-top: 2rem;
 }
+@media only screen and (max-width: 420px) {
+  .Logo  {
+    width: 6rem;
+
+  margin-left: -2rem;
+    margin-right: 2rem;
+   }}
 .Headerlinks {
   flex-direction: row;
   margin-top: 2rem;
@@ -41,6 +53,10 @@
   margin-right:1rem;
   margin-left: 1rem;
 }
+@media only screen and (max-width: 420px) {
+  .HeaderHome  {
+    font-size: 2.2rem;
+   }}
 .HeaderHome:hover {
   color: rgb(255, 51, 170);
 }
@@ -57,6 +73,10 @@
   margin-right:1rem;
   margin-left: 1rem;
 }
+@media only screen and (max-width: 420px) {
+  .HeaderWork {
+    font-size: 2.2rem;
+   }}
 .HeaderWork:hover {
   color: rgb(255, 51, 170);
 }
@@ -73,6 +93,10 @@
   margin-right:1rem;
   margin-left: 1rem;
 }
+@media only screen and (max-width: 420px) {
+  .HeaderUs  {
+    font-size: 2.2rem;
+   }}
 .HeaderUs:hover {
   color: rgb(255, 51, 170);
 }
@@ -89,6 +113,10 @@
   margin-right:1rem;
   margin-left: 1rem;    
 }
+@media only screen and (max-width: 420px) {
+  .HeaderContact   {
+    font-size: 2.2rem;
+   }}
 .HeaderContact:hover {
   color: rgb(255, 51, 170);
 }

@@ -10,6 +10,11 @@
   align-items: center;
 
 }
+@media only screen and (max-width: 420px) {
+  .Main {
+    height: 200vh;
+    
+   }}
 .MainContainer {
   display: flex;
   flex-direction: column;
@@ -23,14 +28,26 @@
   align-items: center;
   
 }
+@media only screen and (max-width: 420px) {
+  .MainContainer {
+    width: 420px; 
+    
+   }}
+
 .HeaderText {
   font-family: 'Raleway', sans-serif;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
   color: white;
   text-align: center;
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
+@media only screen and (max-width: 420px) {
+  .HeaderText {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-right: 2rem;
+   }}
 .MainText {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
@@ -45,29 +62,56 @@
 
   gap: 2rem;
 }
+@media only screen and (max-width: 420px) {
+  .MainContainerCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8rem;
+
+   }}
+   .Job {
+     width: 30rem;
+     height: 35rem;
+     border-radius: 2rem;
+     
+    }
+    @media only screen and (max-width: 420px) {
+      .Job {
+        
+        margin-bottom: 8rem;
+        
+      }}
+      .Meeting {
+        width: 20rem;
+        height: 45rem;
+        border-radius: 2rem;
+        margin-top: -6rem;
+      }
+      @media only screen and (max-width: 420px) {
+        .Management {
+          height: 35rem;
+          margin-bottom: 8rem;
+          
+        }}
 .Management {
   width: 50rem;
   height: 30rem;
   border-radius: 2rem;
   margin-top: -2rem;
- 
- }
-.Job {
-  width: 30rem;
-  height: 35rem;
-  border-radius: 2rem;
-
+         
 }
-.Meeting {
-  width: 20rem;
-  height: 45rem;
-  border-radius: 2rem;
-  margin-top: -6rem;
-}
+@media only screen and (max-width: 420px) {
+   .Management {
+    width: 30rem;
+    height: 20rem;     
+   margin-top: 2rem;
+        
+}}
 .BotomContainer {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
 }
 .BotomText {
   font-family: 'Raleway', sans-serif;
@@ -78,6 +122,13 @@ align-items: center;
   margin-top: 15rem;
   
 }
+@media only screen and (max-width: 420px) {
+  .BotomText  {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-left: -1rem;
+}}
 .BotomTextGeral {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
@@ -87,6 +138,15 @@ align-items: center;
   margin-top: 2rem;
   margin-bottom: 15rem;
 }
+@media only screen and (max-width: 420px) {
+  .BotomTextGeral {
+    font-size: 1rem;
+    font-weight: 100;
+ 
+    width: 80%;
+    text-align: center;
+    margin-left: -1rem;
+}}
 .Mail {
   all: unset;
 

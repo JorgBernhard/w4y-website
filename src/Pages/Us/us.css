@@ -10,6 +10,11 @@
   align-items: center;
 
 }
+@media only screen and (max-width: 420px) {
+  .Us {
+    width: 420px; 
+    height: 220vh;
+   }}
 .UsContainer {
   display: flex;
   flex-direction: column;
@@ -23,6 +28,11 @@
   align-items: center;
   
 }
+@media only screen and (max-width: 420px) {
+  .UsContainer {
+    width: 420px; 
+  height: 100%;
+   }}
 .UsText {
   font-family: 'Raleway', sans-serif;
   font-size: 3rem;
@@ -31,6 +41,11 @@
   text-align: left;
   margin-top: 10rem;
 }
+@media only screen and (max-width: 420px) {
+  .UsText {
+    font-size: 2rem;
+  font-weight: 500;
+   }}
 .UsTextGeral {
   font-family: 'Raleway', sans-serif;
   font-size: 2rem;
@@ -41,6 +56,12 @@
   text-align: justify;
   margin-top: 4rem;
 }
+@media only screen and (max-width: 420px) {
+  .UsTextGeral {
+    font-size: 2rem;
+    font-weight: 300;
+    width: 80%;
+   }}
 .UsContainerCenter {
   display: flex;
   flex-direction: row;
@@ -48,6 +69,12 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 420px) {
+  .UsContainerCenter {
+    display: flex;
+    flex-direction: column;
+  
+   }}
 .Ceo {
   width: 30rem;
 
@@ -66,6 +93,13 @@
   text-align: justify;
   margin-top: 4rem;
 }
+@media only screen and (max-width: 420px) {
+  .UsCeoGeral{
+    font-size: 2rem;
+    font-weight: 300;
+    width: 80%;
+  
+   }}
 .UsBoden {
   display: flex;
   flex-direction: column;
@@ -83,6 +117,15 @@
 
   margin-top: 2rem;
 }
+@media only screen and (max-width: 420px) {
+  .UsBodenText  {
+    font-size: 2rem;
+    font-weight: 500;
+    width: 420px;
+    text-align: left;
+    margin-left: 9rem;
+    
+   }}
 .UsBodenImages {
   display: flex;
   flex-direction: row;
@@ -93,6 +136,12 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 420px) {
+  .UsBodenImages  {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   }}
 .UsClients {
   height: 5rem;
   
@@ -110,3 +159,9 @@
 
   margin-top: 1rem;
 }
+@media only screen and (max-width: 420px) {
+  .UsBodenImagesII  {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   }}
